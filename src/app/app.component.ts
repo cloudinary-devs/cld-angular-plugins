@@ -9,13 +9,13 @@ import {
 
 /**
  * This sample Angular project showcases how to use
- * @cloudinary/base along with our React SDK to render CloudinaryImage
+ * @cloudinary/url-gen along with our Angular SDK to render CloudinaryImage.
  *
- * In addition, we will showcase how to use our advanced features
+ * In addition, we showcase how to use our advanced features
  * in the form of plugins. For more information on the SDK and
- * plugins, please see- https://staging.cloudinary.com/documentation/sdks/js/frontend-frameworks/index.html
+ * plugins, see https://cloudinary.com/documentation/sdks/js/frontend-frameworks/AngularSDK
  *
- *Note: The following order or plugins should remain- 
+ * Note: The following order or plugins should be used: 
  plugins=[lazyload(),responsive(), accessibility(), placeholder()] 
  */
 
