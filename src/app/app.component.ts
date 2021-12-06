@@ -5,7 +5,7 @@ import {
   responsive,
   accessibility,
   placeholder
-} from "@cloudinary/angular";
+} from "@cloudinary/ng";
 
 /**
  * This sample Angular project showcases how to use
