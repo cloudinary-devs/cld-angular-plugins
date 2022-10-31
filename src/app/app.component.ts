@@ -29,11 +29,11 @@ export class AppComponent {
   brownSheep = new CloudinaryImage("brown_sheep", { cloudName: "demo" });
   woman = new CloudinaryImage("woman", { cloudName: "demo" });
   cat = new CloudinaryImage("fat_cat", { cloudName: "demo" });
-  largeImage = new CloudinaryImage("oil", { cloudName: "rcstraus" });
+  largeImage = new CloudinaryImage("oil", { cloudName: "demo" });
 
   accessibility = [accessibility()];
-  colorBlind = [accessibility("colorblind")];
-  responsive = [responsive(100)];
+  colorBlind = [accessibility({ mode: "colorblind" })];
+  responsive = [responsive({ steps: 100 })];
   lazyload = [lazyload()];
   lazyloadWithPlaceholder = [lazyload(), placeholder()];
 }
